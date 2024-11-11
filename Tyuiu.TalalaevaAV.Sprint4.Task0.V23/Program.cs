@@ -25,7 +25,7 @@ namespace Tyuiu.TalalaevaAV.Sprint4.Task0.V23
             Console.WriteLine("Исходный массив");
             for (int i = 0; i <= nums.Length -1; i++)
             {
-                Console.WriteLine(nums[i]);
+                Console.WriteLine(nums[i] );
             }
 
             Console.WriteLine("***************************************************************************");

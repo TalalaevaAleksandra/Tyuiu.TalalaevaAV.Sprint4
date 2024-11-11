@@ -10,7 +10,7 @@ namespace Tyuiu.TalalaevaAV.Sprint4.Task0.V23.Test
             DataService ds= new DataService();
             int[] nums = { 9, 3, 7, 1, 5, 5, 3, 2, 1, 7 };
             int res = ds.GetMultOddArrEl(nums);
-            Assert.AreEqual(210, res);
+            Assert.AreEqual(99225, res);
 
         }
     }

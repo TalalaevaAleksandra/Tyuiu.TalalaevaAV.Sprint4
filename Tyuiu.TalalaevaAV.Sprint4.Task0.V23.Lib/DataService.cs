@@ -9,7 +9,7 @@ namespace Tyuiu.TalalaevaAV.Sprint4.Task0.V23.Lib
             int pr=1;
             for (int i = 0; i <= array.Length - 1; i++) 
             {
-                if (i % 2 == 1) 
+                if (array[i] % 2 == 1) 
                 {
                     pr = pr * array[i];
                 }
